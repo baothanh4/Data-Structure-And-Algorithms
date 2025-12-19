@@ -29,15 +29,14 @@ public class Main {
     private static LCM lcm = new LCM();
     private static PerfectNumber  perfectNumber = new PerfectNumber();
     private static FractionNumber   fractionNumber = new FractionNumber();
+    private static DayOfWeek dayOfWeek = new DayOfWeek();
+    private static Fibonanci fibonanci = new Fibonanci();
+    private static DecimalToBinary decimalToBinary = new DecimalToBinary();
+    private static NthOfSum nthOfSum = new NthOfSum();
+    private static ArmstrongNumber armstrongNumber = new ArmstrongNumber();
+    private static PalindromeNumber  palindromeNumber = new PalindromeNumber();
+    private static DigitalRoot digitalRoot = new DigitalRoot();
     public static void main(String[] args) {
-        List<Integer> a = new ArrayList<Integer>();
-        a.add(1);
-        a.add(5);
-        List<Integer> b = new ArrayList<>();
-        b.add(3);
-        b.add(15);
-        List<Integer> ans = fractionNumber.addFraction(a,b);
-        System.out.println(ans.get(0)+", "+ans.get(1));
-
+        System.out.println(digitalRoot.checkDigit("5674"));
     }
 }
